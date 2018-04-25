@@ -13,3 +13,4 @@
         mov ah,4ch                      ;to terminate the program
         int 21h                         ;call the kernel
 end 
+;Hello world program
