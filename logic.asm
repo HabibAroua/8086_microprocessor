@@ -1,0 +1,24 @@
+;logic operation
+
+;And
+MOV AL , 10010110B
+MOV BL , 11001101B
+AND AL , BL
+
+;OR
+MOV AH , 10110001B
+OR AH , 00001010B
+
+;NOT
+MOV AL , 10010001B
+NOT AL
+
+;NEG opérende
+MOV AL , 25
+MOV BL , 12
+NEG BL
+ADD AL , BL
+
+;XOR
+MOV AL , 25
+XOR AL , AL
