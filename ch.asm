@@ -1,0 +1,7 @@
+MOV DL , 3f
+MOV AH , 2
+int 21
+INC DL
+CMP dl,5b
+JNE 104
+int 20
