@@ -5,7 +5,7 @@
 MOV al,51
 MOV bl,32 ; ➔AX = 51* 32
 MUL bl
-
+;
 MOV ax,4253
 MOV bx,1689 ;➔ (DX,AX)=4253*1689
 MUL bx
